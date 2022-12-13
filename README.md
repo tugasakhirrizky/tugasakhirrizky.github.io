@@ -1,4 +1,4 @@
-<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+<script type="module" src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
 
 
 <tableau-viz id="tableauViz"       
