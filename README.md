@@ -1,1 +1,1 @@
-<iframe src="https://public.tableau.com/views/GTSRB_Result_Viz/GTSRB?:embed=yes&:display_count=yes"></iframe>   
+<iframe src=" https://public.tableau.com/views/Sebaran_Pos/Dashboard?:embed=yes&:display_count=yes"></iframe>
