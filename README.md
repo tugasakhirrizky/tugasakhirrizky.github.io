@@ -1,1 +1,2 @@
-<div class="iframely-embed" style="min-width: 600px;"><div class="iframely-responsive" style="padding-bottom: 86.1667%; padding-top: 27px;"><a href="https://public.tableau.com/views/Sebaran_Pos/Dashboard1?:showVizHome=no&:embed=true" data-iframely-url="//iframely.net/fw4SYas"></a></div></div><script async src="//iframely.net/embed.js"></script> 
+<iframe src="https://public.tableau.com/views/public_exercise/Dashboard1?:showVizHome=no&:embed=true"
+ width="645" height="955"></iframe
