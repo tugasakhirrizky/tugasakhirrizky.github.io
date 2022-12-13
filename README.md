@@ -1,14 +1,27 @@
-<script src="https://www.example.com/javascripts/api/tableau-2.js"></script>
-<div id="tableauViz"></div>
-
-function initializeViz() {
-var placeholderDiv = document.getElementById("tableauViz");
-var url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
-var options = {
- width: '600px',
- height: '600px',
- hideTabs: true,
- hideToolbar: true,
- };
-viz = new tableau.Viz(placeholderDiv, url, options);
-}
+<html>
+<head>
+<meta charset="utf-8">
+<title>Display a map on a webpage</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoicmV6ZWtpcmV6ZWtpMSIsImEiOiJjbGJqaTNyNXMwZHBlM29ucmxvN2w0dWR3In0.YBdWa-MnwxkH-9LNtqnZtQ';
+const map = new mapboxgl.Map({
+container: 'map', // container ID
+// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+style: 'mapbox://styles/mapbox/streets-v12', // style URL
+center: [-74.5, 40], // starting position [lng, lat]
+zoom: 9 // starting zoom
+});
+</script>
+ 
+</body>
+</html>
