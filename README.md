@@ -3,5 +3,5 @@
 
 <tableau-viz id="tableauViz"       
   src='[https://public.tableau.com/views/Superstore_24/Overview](https://public.tableau.com/views/Sebaran_Pos/Dashboard)'      
-  device="desktop" toolbar="bottom" hide-tabs>
+  device="default" toolbar="bottom" hide-tabs>
 </tableau-viz>
