@@ -23,7 +23,7 @@ body { margin: 0; padding: 0; }
         pitch: 80,
         bearing: 41,
         // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-        style: 'mapbox://styles/mapbox/satellite-streets-v12'
+        style: 'mapbox://styles/rezekirezeki1/clbleraf0001j14mao61q0k4g'
     });
 
     map.on('style.load', () => {
