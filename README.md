@@ -1,1 +1,2 @@
-<iframe src=" https://public.tableau.com/views/Sebaran_Pos/Dashboard?:embed=yes&:display_count=yes"></iframe>
+<script src="https://www.example.com/javascripts/api/tableau-2.js"></script>
+<div id="tableauViz"></div>
